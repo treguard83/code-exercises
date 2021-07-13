@@ -1,9 +1,10 @@
 from random import randint
+import newbies
 
 x = randint(1,9)*10
 guess = -1
 
-print("Guess my tens between 10 and 100: ")
+newbies.printplus(1)
 
 while guess != x:
     guess = int(input("Pick your number: "))
