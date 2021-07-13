@@ -1,7 +1,7 @@
 import random
 
 def printplus(x):
-    x2 = ("Guess my number between 10 and 20: ","Guess my 10s between 10 and 100: ","Guess my number between 1 and 10: ", "Guess my number between 0 and 1000: ","Guess my Compass Point: ","Guess my Vowel: ","Guess the decade: ")
+    x2 = ("Guess my number between 10 and 20: ","Guess my 10s between 10 and 100: ","Guess my number between 1 and 10: ", "Guess my number between 0 and 1000: ","Guess my Compass Point: ","Guess my Vowel: ")
     print(x2[x])
 
 def numpick(x):
