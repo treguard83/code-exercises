@@ -4,7 +4,7 @@ import newbies
 x = randint(11,19)
 guess = -1
 
-newbies.printplus(0)
+newbies.printplus()
 
 while guess != x:
     guess = int(input("Pick your number: "))
