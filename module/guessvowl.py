@@ -1,14 +1,5 @@
-from random import randint
+import newbies
 
-x = randint(0,5)
-guess = "Z"
-vowls = ('A','E','I','O','U')
+newbies.printplus(5)
 
-print("Guess my Vowl: ")
-
-while guess.capitalize() != vowls[x]:
-    guess = input("Pick your Vowl: ")
-    if guess.capitalize() != vowls[x]:
-        print("WRONG!, try again")
-    else:
-        print("CORRECT!, you have won the game")
+newbies.guessvowels()

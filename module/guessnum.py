@@ -1,8 +1,8 @@
 from random import randint
 import newbies
 
-x = randint(11,19)
-
 newbies.printplus(0)
+
+x = randint(11,19)
 
 newbies.numpick(x)
